@@ -1,0 +1,82 @@
+# Node.js
+node_modules/
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist/
+build/
+
+# Dependency directories
+**/node_modules
+
+# Static Bundles
+*.cache/
+
+# Testing
+coverage/
+
+# Misc
+.DS_Store
+Thumbs.db
+
+# React specific
+build/
+*.cache/
+
+# IDE settings and files
+.idea/
+*.iml
+.vscode/
+
+# Spring
+/target/
+*.class
+*.jar
+*.war
+*.ear
+
+# IntelliJ
+/.idea/
+*.iml
+
+# Eclipse
+/.project
+/.classpath
+/.settings/
+/.springBeans
+
+# OS-specific
+*.swp
+*.swo
+*~
+
+# Maven specific
+target/
+.mvn/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Temporary files
+*.swp
+*.swo
+*.bak
+
+# Spring Boot
+**/target/
+**/out/
+!**/src/main/**
+!**/src/test/**
+!*.java
